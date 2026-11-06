@@ -1204,7 +1204,7 @@ static driver_t g_drivers[] = {
 	false,                                   // loaded
 	},
 #endif
-#if ENABLE_DRIVER_BMPI2C
+#ifdef ENABLE_DRIVER_BMPI2C
 		//drvdetail:{"name":"BMPI2C",
 		//drvdetail:"title":"TODO",
 		//drvdetail:"descr":"Driver for BMP085, BMP180, BMP280, BME280, BME68X sensors with I2C interface.",
